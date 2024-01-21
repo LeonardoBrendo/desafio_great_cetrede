@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.school-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.school-table th, .school-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.school-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.background-container {
+  text-align: center;
+}
+
+.school-list {
+  margin-top: 20px;
+}
+
+.school-info {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #777;
+  cursor: not-allowed;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.background-container {
+  text-align: center;
+}
+
+.school-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.school-table th, .school-table td {
+  border: 1px solid #ddd;
+  padding: 8px; /* Reduzi o tamanho do padding */
+  text-align: left;
+  font-size: 12px; /* Adicionei o tamanho da fonte */
+}
+
+.school-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px; /* Reduzi o tamanho do padding */
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px; /* Adicionei o tamanho da fonte */
+}
+
+.pagination button.active {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #777;
+  cursor: not-allowed;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+  
+}
